@@ -1,0 +1,45 @@
+{
+  "name": "kset",
+  "version": "2.0.0",
+  "description": "Uses one or more keys to locate and set a value in a Map, Object, or other keyed collection. Supports nesting, loose key matching, and more.",
+  "keywords": [
+    "set",
+    "nested",
+    "key",
+    "chain",
+    "value",
+    "collection",
+    "array",
+    "map",
+    "object",
+    "set",
+    "typed array",
+    "WeakMap"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/kset",
+  "repository": "lamansky/kset",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "kedit": "^1.0.0",
+    "xfn": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
